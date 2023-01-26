@@ -13,7 +13,7 @@
 
 # Alex 
 
-![](https://github.com/T-Dev-CCM/WMAG-Showcase/blob/gh-pages/images/image8.jpeg?raw=true)
+ ![](https://github.com/T-Dev-CCM/WMAG-Showcase/blob/gh-pages/images/image8.jpeg?raw=true)
 
 # Clyde 
 
