@@ -1,12 +1,13 @@
-## Party Members
+# Party Members
 
 - The Official Main Cast of Characters in the Party! 
 
+- Art made by @awiz_designs
 
-## We Made a Game 
+# We Made a Game 
 
 
-# Trey 
+## Trey 
 
 <div class="row"> <!--- make a new row -->
   <!-- each column is one-third of width -->
@@ -16,7 +17,7 @@
 </div>
 
 
-# Alex 
+## Alex 
 
 <div class="row"> <!--- make a new row -->
   <!-- each column is one-third of width -->
@@ -25,7 +26,7 @@
  </div>
 </div>
 
-# Clyde 
+## Clyde 
 <div class="row"> <!--- make a new row -->
   <!-- each column is one-third of width -->
   <div class="column">
@@ -33,7 +34,7 @@
  </div>
 </div>
 
-# Collector 
+## Collector 
 
 <div class="row"> <!--- make a new row -->
   <!-- each column is one-third of width -->
@@ -44,7 +45,7 @@
 </div>
 
 
-# Marcie
+## Marcie
 
 <div class="row"> <!--- make a new row -->
   <!-- each column is one-third of width -->
@@ -55,6 +56,37 @@
 </div>
 
 
+# We Made Another Game 
 
+
+## Marie Katie 
+
+<div class="row"> <!--- make a new row -->
+  <!-- each column is one-third of width -->
+  <div class="column">
+    <img src="/images/image7.jpeg" 
+     style="width:100%">
+ </div>
+</div>
+
+## Giga-Volt
+
+<div class="row"> <!--- make a new row -->
+  <!-- each column is one-third of width -->
+  <div class="column">
+    <img src="/images/image2.jpeg" 
+     style="width:100%">
+ </div>
+</div>
+
+## Gen
+
+<div class="row"> <!--- make a new row -->
+  <!-- each column is one-third of width -->
+  <div class="column">
+    <img src="/images/IMG_4957.jpg" 
+     style="width:100%">
+ </div>
+</div>
 
 # Want updates on our game? Sign up for emails [here!](http://127.0.0.1:4000/newsletter) 
