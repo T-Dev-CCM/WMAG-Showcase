@@ -7,6 +7,14 @@
 
 - An example of how this will look is demonstrated in the image below
 
+<div class="row"> <!--- make a new row -->
+  <!-- each column is one-third of width -->
+  <div class="column">
+    <img src="/images/IMG_3614.jpg" 
+     style="width:100%">
+ </div>
+</div>
+
 
 
 

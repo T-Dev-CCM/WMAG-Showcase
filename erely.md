@@ -2,6 +2,13 @@
 
 - The world of our game! 
 
+<div class="row"> <!--- make a new row -->
+  <!-- each column is one-third of width -->
+  <div class="column">
+    <img src="/images/IMG_3765.jpg" 
+     style="width:100%">
+ </div>
+</div>
 
 - Our game takes place in the world of Erely, a nation full of unique areas to explore, people to help and places to discover. You will travel to nations far and wide, so let's take a look at where you'll go! 
 

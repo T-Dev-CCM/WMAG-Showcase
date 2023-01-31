@@ -7,7 +7,29 @@
 
 > Common enemies you'll encounter on your adventure 
 
+<div class="row"> <!--- make a new row -->
+  <!-- each column is one-third of width -->
+  <div class="column">
+    <img src="/images/IMG_3762.jpg" 
+     style="width:100%">
+ </div>
+</div>
 
+<div class="row"> <!--- make a new row -->
+  <!-- each column is one-third of width -->
+  <div class="column">
+    <img src="/images/IMG_3763.jpg" 
+     style="width:100%">
+ </div>
+</div>
+
+<div class="row"> <!--- make a new row -->
+  <!-- each column is one-third of width -->
+  <div class="column">
+    <img src="/images/IMG_3764.jpg" 
+     style="width:100%">
+ </div>
+</div>
 
 
 
