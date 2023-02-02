@@ -52,6 +52,14 @@
 
 ## Jason Wolfe 
 
+<div class="row"> <!--- make a new row -->
+  <!-- each column is one-third of width -->
+  <div class="column">
+    <img src="/images/1.png" 
+     style="width:100%">
+ </div>
+</div>
+
 - Head of the Organization of the Dying Star, Jason Wolfe has been remouned as one of the most respected, feared, peak performance, and most dangerous human alive. He views the world as a bunch of cruel people who must be destroyed, while the good portion are saved. He has no hesitation to kill anyone that dares step in his way and makes no negotiations, and will stop at nothing for destroying 99.999% of life on earth
 
 
