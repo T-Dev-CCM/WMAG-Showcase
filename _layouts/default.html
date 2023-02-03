@@ -28,8 +28,16 @@
 
       <section>
         <!-- nighthawk coding society has altered arrangement and inserted navigation that is updated in independent file -->
+        <div class="row"> <!--- make a new row -->
+          <!-- each column is one-third of width -->
+          <div class="column">
+            <img src="/images/image0.jpeg" 
+             style="width:100%">
+         </div>
+        </div>
+        
         <div id="title">
-          <h1><a href={{ site.gitorg }}>{{ site.title | default: site.github.repository_name }}</a></h1>
+          
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
           {% include home.html %}
