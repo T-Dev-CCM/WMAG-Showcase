@@ -1,21 +1,18 @@
-# Want updates on our game? Sign up now! 
-
-
-- Type in your Email for potential updates on game development
-
-
-
-
-
+---
+title: JWT Login
+layout: default
+description: A login screen that interacts with Java and obtains a JWT  
+permalink: /data/login
+---
 
 
 <form action="javascript:login_user()">
     <p><label>
         Email:
-        <input type="text" name="Email" id="Email" required>
+        <input type="text" name="uid" id="Email" required>
     <p><button>Sign Up</button></p>
     <p id="message"></p>
-
+</form>
 
 <script>
     // URL for deployment
@@ -29,7 +26,7 @@
     function login_user(){
         // Set body to include login data
         const body = {
-            email: document.getElementById("Email").value,
+            uid: document.getElementById("uid").value,
             password: document.getElementById("password").value,
         };
 
@@ -46,13 +43,13 @@
         };
 
         // Fetch JWT
-        fetch(login_email, requestOptions)
+        fetch(login_url, requestOptions)
         .then(response => {
             // trap error response from Web API
             if (response.status !== 200) {
                 const message = 'Login error: ' + response.status + " " + response.statusText;
                 document.getElementById("message").innerHTML = message;
-                localStorage.removeItem("Email");
+                localStorage.removeItem("uid");
                 localStorage.removeItem("visitor");
                 return;
             }
@@ -60,7 +57,7 @@
             response.json().then(data => {
                 const message = 'Login success: ' + data.name;
                 document.getElementById("message").innerHTML = message;
-                localStorage.setItem("Email", data.Email);
+                localStorage.setItem("uid", data.uid);
                 localStorage.setItem("visitor", data.name);
             })
         })
