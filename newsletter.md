@@ -9,62 +9,79 @@
 
 
 
-<form action="javascript:login_user()">
-    <p><label>
-        Email:
-        <input type="text" name="Email" id="Email" required>
-    <p><button>Sign Up</button></p>
-    <p id="message"></p>
+<html>
+<head>
+	<title>Sign up for our newsletter</title>
+</head>
+<body>
+	<h1>Sign up for our newsletter</h1>
+
+<form action="/subscribe" method="post">
+		<label for="email">Email address:</label>
+		<input type="email" name="email" id="email" required>
+
+	</form>
 
 
-<script>
-    // URL for deployment
-    var url = "https://flask.nighthawkcodingsociety.com"
-    // Comment out next line for local testing
-    //url = "http://localhost:8086"
-    // Authenticate endpoint
-    const login_url = url + '/api/users/authenticate';
 
 
-    function login_user(){
-        // Set body to include login data
-        const body = {
-            email: document.getElementById("Email").value,
-            password: document.getElementById("password").value,
-        };
-
-        // Set Headers to support cross origin
-        const requestOptions = {
-            method: 'POST',
-            mode: 'cors', // no-cors, *cors, same-origin
-            cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-            // credentials: 'include', // include, *same-origin, omit
-            body: JSON.stringify(body),
-            headers: {
-                "content-type": "application/json",
-            },
-        };
-
-        // Fetch JWT
-        fetch(login_email, requestOptions)
-        .then(response => {
-            // trap error response from Web API
-            if (response.status !== 200) {
-                const message = 'Login error: ' + response.status + " " + response.statusText;
-                document.getElementById("message").innerHTML = message;
-                localStorage.removeItem("Email");
-                localStorage.removeItem("visitor");
-                return;
-            }
-            // Valid response will contain json data
-            response.json().then(data => {
-                const message = 'Login success: ' + data.name;
-                document.getElementById("message").innerHTML = message;
-                localStorage.setItem("Email", data.Email);
-                localStorage.setItem("visitor", data.name);
-            })
-        })
-    }
 
 
-</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+	<title>Redirecting Button</title>
+</head>
+<body>
+	<!-- Create a button that redirects to a different page upon clicking it -->
+	<button onclick="window.location.href='//127.0.0.1:4000/subscribe';">Sign Up</button>
+</body>
+</html>
